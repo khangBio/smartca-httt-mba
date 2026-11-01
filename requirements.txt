@@ -1,0 +1,5 @@
+# Requires Python 3 (install separately).
+torch==1.10.1
+scipy==1.7.1
+numpy
+pandas
