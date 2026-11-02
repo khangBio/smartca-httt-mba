@@ -1,6 +1,10 @@
 # MBA
 This repository is the implementation of our SIGIR 2023 Paper "Improving Implicit Feedback-Based Recommendation through Multi-Behavior Alignment"
 
+## Kaggle training and experimental improvements
+
+The standalone [Kaggle notebook](kaggle/MBA_Taobao_Beibei_Kaggle.ipynb) trains a source-style MBA control and an experimental adaptive extension on Taobao and Beibei. It includes the training code and uses a validation split for checkpoint selection. See the [Kaggle guide](kaggle/README.md) and [Vietnamese analysis](docs/phan_tich_cai_tien_MBA.md) for the paper results, dataset audit, algorithm changes, and evaluation differences. The extension has correctness and smoke checks; quality improvements require full experiments.
+
 
 
 ## Requirements

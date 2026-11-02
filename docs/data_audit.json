@@ -1,0 +1,98 @@
+{
+  "beibei": {
+    "users": 21716,
+    "items": 7977,
+    "files": {
+      "buy_test": {
+        "rows": 60915,
+        "unique_pairs": 60915
+      },
+      "buy_train": {
+        "rows": 243661,
+        "unique_pairs": 243661
+      },
+      "pv_test": {
+        "rows": 482517,
+        "unique_pairs": 482517
+      },
+      "pv_train": {
+        "rows": 1930069,
+        "unique_pairs": 1930069
+      }
+    },
+    "sha256": {
+      "beibei_buy_test.csv": "4e2a8b0c908e150c7a48db4eff156ac4294170c696595ea73e45a4ca75a48e95",
+      "beibei_buy_train.csv": "2adb626c41ff9e6f8be0d3ee0a6a075810b3206624e77724548496c7126266d3",
+      "beibei_pv_test.csv": "bd40e0a7b4e818ddfe7aa678a36c68d4974b5f04bb3445c2333a910b0a1a5f0e",
+      "beibei_pv_train.csv": "c34f34ccefc15a682658eda861d3c8220290ac4b2cb471ce86099050e2221bd9"
+    },
+    "buy_total": 304576,
+    "pv_total": 2412586,
+    "train_purchase_density": 0.0014065869934174586,
+    "train_click_buy_ratio": 7.921124020668059,
+    "buy_train_degree_quantiles": [
+      1.0,
+      7.0,
+      10.0,
+      13.0,
+      18.0,
+      91.0
+    ],
+    "users_buy_train_le_3": 164,
+    "users_buy_train_le_3_percent": 0.755203536562903,
+    "train_test_buy_overlap": 0,
+    "train_test_pv_overlap": 0,
+    "buy_test_in_pv_train": 47508,
+    "buy_test_in_pv_test": 11943,
+    "source_pretrain_pv_union_size": 1983761,
+    "source_mba_pv_union_size": 2418564
+  },
+  "taobao": {
+    "users": 48658,
+    "items": 39395,
+    "files": {
+      "buy_test": {
+        "rows": 49927,
+        "unique_pairs": 49927
+      },
+      "buy_train": {
+        "rows": 208905,
+        "unique_pairs": 208905
+      },
+      "pv_test": {
+        "rows": 309442,
+        "unique_pairs": 309442
+      },
+      "pv_train": {
+        "rows": 1238659,
+        "unique_pairs": 1238659
+      }
+    },
+    "sha256": {
+      "taobao_buy_test.csv": "7811f73be4ae4743429c207f4837d4b588197e8848400fe326c9be18e63d7708",
+      "taobao_buy_train.csv": "9291aa47493b16392cc58920ff46d21edf68a82d73615a31d42d2ded1e9fb112",
+      "taobao_pv_test.csv": "ecceaa13e7eaf68510be87a8027b63dffe0407ce5eec7ca3cca1393534e04fa5",
+      "taobao_pv_train.csv": "ef7c82995a9e8e98c0c75f57325b0e35480fdd2753d01997ca5d874674df6255"
+    },
+    "buy_total": 258832,
+    "pv_total": 1548101,
+    "train_purchase_density": 0.00010898167430668695,
+    "train_click_buy_ratio": 5.92929321940595,
+    "buy_train_degree_quantiles": [
+      1.0,
+      3.0,
+      4.0,
+      5.0,
+      6.0,
+      48.0
+    ],
+    "users_buy_train_le_3": 16928,
+    "users_buy_train_le_3_percent": 34.78975708002795,
+    "train_test_buy_overlap": 0,
+    "train_test_pv_overlap": 0,
+    "buy_test_in_pv_train": 25422,
+    "buy_test_in_pv_test": 6445,
+    "source_pretrain_pv_union_size": 1341117,
+    "source_mba_pv_union_size": 1623932
+  }
+}
